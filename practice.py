@@ -1,10 +1,6 @@
-def greet(friend):
-    return "hello " + friend
+data = []
+data.append("A")
+data.append("B")
 
-def greet_all(friends):
-    for friend in friends:
-        print(greet(friend))
-
-c = ["pam","jim"]
-
-greet_all(c)
+print(data.pop(0))
+print(data.pop())
