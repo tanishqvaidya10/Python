@@ -1,6 +1,15 @@
-data = []
-data.append("A")
-data.append("B")
+print("enter your fav cars: ")
+cars = []
 
-print(data.pop(0))
-print(data.pop())
+while True:
+    c = input()
+    if c == "q":
+        break
+    elif c == "r":
+        cars.pop(0)
+    else:
+        cars.append(c)
+    print(cars)
+
+    for car in cars:
+        print(car)
