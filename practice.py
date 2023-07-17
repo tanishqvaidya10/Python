@@ -8,7 +8,7 @@ while True:
     elif c == "r":
         cars.pop(0)
     else:
-        cars.append(c)
+        cars.append()
     print(cars)
 
     for car in cars:
