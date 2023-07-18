@@ -6,7 +6,7 @@ while True:
     if c == "q":
         break
     elif c == "r":
-        cars.pop(0)
+        cars.pop()
     else:
         cars.append()
     print(cars)
